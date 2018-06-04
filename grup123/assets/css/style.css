@@ -1,0 +1,875 @@
+/* Fonts Css */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* General Css */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100%;
+    background: #eee;
+}
+
+h1,  h3, h4, h5, h6 {
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+
+    line-height: 1.15em;
+
+    color: #000;
+
+    font-weight: 500;
+
+    margin-bottom: 0.7em;
+
+    text-transform: none;
+
+    font-size: 3.4em;
+
+}
+
+ h2  {
+     color:  #333333;
+     font-family:  'Raleway',  serif;
+     font-size:  26px;
+     font-weight:  400;
+     line-height:  1.2em;
+ }
+
+div.paragraph  {
+     font-family:  'Open Sans',  sans-serif;
+     font-size:  16px;
+     font-weight:  300;
+     line-height:  30px;
+ }
+
+ p  {
+     font-family:  'Open Sans',  sans-serif;
+     font-size:  16px;
+     font-weight:  300;
+     line-height:  30px;
+ }
+
+
+
+
+
+
+p ul li {
+
+    margin: 0 0.5em 1em 0;
+
+    font-size: 17px;
+
+}
+
+
+
+button {
+
+    outline: none!important;
+
+}
+
+
+
+/* General Form Focus Color Css */
+
+.form-control:focus {
+
+    border-color: rgba(51, 51, 51, 0.41);
+
+    outline: 0;
+
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(51, 51, 51, 0.23);
+
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(51, 51, 51, 0.23);
+
+}
+
+/*
+
+------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Navbar Css
+
+-------------------------------------------------------------------------------------------------- */
+
+.purple-strike {
+
+    border-bottom: 4px solid #870052;
+
+}
+
+
+
+.navbar {
+	border-radius: 0 !important;
+	min-height: 80px;
+	padding-top: 12px;
+	margin-bottom: 0;
+	z-index: 6;
+    min-width: 60%;
+}
+
+
+
+.navbar-inverse {
+
+    background-color: #202026;
+
+}
+
+
+
+.navbar-form .form-control {
+
+    border-radius: 0;
+
+}
+
+
+
+.nav-sub-header {
+
+    border-left: 1px solid #ddd;
+
+}
+
+
+
+.nav-sub-header a {
+
+    font-size: 1.6em;
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+
+    color: #fff;
+
+}
+
+.navbar-right {
+
+    line-height: 50px;
+
+    padding-right: 20px;
+
+}
+
+/*
+
+------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Navbar Menu Button Css
+
+-------------------------------------------------------------------------------------------------- */
+
+.menu-toggle {
+
+    background: transparent;
+
+    border: 1px solid #ddd;
+
+    color: #fff;
+
+    margin-left: 25px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 1.3em;
+
+}
+
+.menu-toggle:hover {
+
+    color: #eee !important;
+
+}
+
+.menu-toggle:active {
+
+    color: #eee !important;
+
+}
+
+.menu-toggle:link {
+
+    color: #eee !important;
+
+}
+
+.menu-toggle:visited {
+
+    color: #eee !important;
+
+}
+
+.menu-toggle:focus {
+
+    color: #eee !important;
+
+}
+
+/*
+
+------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Mega Menu Css
+
+-------------------------------------------------------------------------------------------------- */
+
+.mega-menu {
+    height: auto;
+
+    width: 100%;
+
+    background: #870052;
+
+    opacity: 0.93;
+
+    text-align: center;
+
+    z-index: 99999;
+
+    padding-bottom: 50px;
+
+    display: none;
+
+
+    -webkit-box-shadow: inset 0 3px 18px -3px rgba(0,0,0,0.4);
+
+    -moz-box-shadow: inset 0 3px 18px -3px rgba(0,0,0,0.4);
+
+    box-shadow: inset 0 3px 18px -3px rgba(0,0,0,0.4);
+
+}
+
+
+
+.mega-menu ul {
+
+    padding: 0 50px 50px;
+
+    list-style: none;
+
+}
+
+
+
+.mega-menu ul li {
+
+    border-bottom: 1px solid #660041;
+
+    padding-bottom: 20px;
+
+}
+
+
+
+.mega-menu ul li h2 {
+
+    color: #fff;
+
+    padding-bottom: 20px;
+
+    padding-top: 20px;
+
+}
+
+
+
+.mega-menu ul li a {
+
+    text-decoration: none;
+
+    color: #fff;
+
+    font-size: 1.2em;
+
+    margin-right: 5%;
+
+}
+
+
+
+.mega-menu ul li h2:after {
+
+    content: ' > ';
+
+    font-size: 15px;
+
+    top: -3px;
+
+    position: relative;
+
+    font-weight: bold;
+
+}
+
+
+
+.mega-menu ul li a:after {
+
+    content: ' > ';
+
+    display: inline-block;
+
+}
+
+/*
+
+------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Breadcrumb Css
+
+-------------------------------------------------------------------------------------------------- */
+
+.breadcrumb {
+	background: transparent;
+	margin-top: 0px;
+	font-size: 1.2em;
+	padding-left: 0;
+}
+
+.breadcrumb-item a {
+
+    color: #232323;
+
+}
+
+/*
+
+------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Left Area Css
+
+-------------------------------------------------------------------------------------------------- */
+
+.left-area {
+	height: auto;
+	padding-right: 30px;
+	padding-bottom: 2%;
+	border-right: 1px solid #ccc;
+}
+
+/*
+
+------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Right Sidebar Css
+
+-------------------------------------------------------------------------------------------------- */
+
+#sidebar-wrapper {
+	height: 80%;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0px;
+	position: fixed;
+	right: 0;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	top: 50%;
+	bottom: -75%;
+	left: 84%;
+}
+
+#sidebar {
+
+    position: relative;
+
+    height: 100%;
+
+    overflow: hidden;
+
+}
+
+.list-group {
+
+    padding-left: 0;
+
+    margin-bottom: 20px;
+
+}
+
+.list-group-item {
+
+    border-color: transparent;
+
+    border-radius: 0!important;
+
+}
+
+/*
+
+------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Pagination Css
+
+-------------------------------------------------------------------------------------------------- */
+
+.custom-pagination-wrapper {
+
+    border-top: 1px solid #ebebeb;
+
+    width: 100%;
+
+    margin-top: 20px;
+
+    background-color: #f6f6f6;
+
+}
+
+.custom-pagination {
+
+    margin-top: 15px ;
+
+    display: inline-block;
+
+}
+
+.custom-pagination li {
+
+    float: left;
+
+    padding: 8px 16px;
+
+    list-style-type: none;
+
+}
+
+.custom-pagination li a {
+
+    text-decoration: none;
+
+    color: #000000;
+
+    font-size: 16px;
+
+}
+
+.custom-pagination li a:hover, .custom-pagination > .active > a {
+
+    color: #660041;
+
+}
+
+.separador-citacoes {
+	margin: 0 7px;
+}
+
+/*
+
+------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Blog Css
+
+-------------------------------------------------------------------------------------------------- */
+
+.card {
+	background-color: #fff;
+	position: relative;
+	width: 15%;
+	box-shadow: 0 2px 5px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+	float: right;
+}
+
+
+
+
+.card-block {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	min-height: 20px;
+}
+
+
+
+.card-footer {
+
+    color: #555;
+
+    font-weight: bold;
+
+    background-color: #f0f0f0;
+
+    border-bottom: 3px solid #ccc;
+
+}
+
+.card-footer p {
+
+    margin: 6px;
+
+    padding-top: 6px;
+
+}
+
+.card-text-left {
+
+    padding-left: 7px;
+
+}
+
+
+
+.card-text-right {
+
+    position: absolute;
+
+    right: 40px;
+
+}
+
+
+
+/*  More Posts Hidden Css */
+
+
+
+
+
+
+
+
+
+
+/* Blog Css
+
+-------------------------------------------------------------------------------------------------- */
+
+.card_A {
+
+    background-color: #fff;
+
+    position: relative;
+
+    width: 98.3%;
+
+    float: left;
+
+    box-shadow: 0 2px 5px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+
+}
+
+
+
+.card-image {
+	width: 100%;
+	opacity: .8;
+	transition: .3s all ease-in-out;
+	-webkit-transform: rotate(0);
+	-moz-transform: rotate(0);
+	transform: rotate(0);
+	-webkit-backface-visibility: hidden;
+}
+
+
+
+.card-block_A {
+
+    padding: 10px;
+
+    min-height: 200px;
+
+}
+
+
+
+.card-footer {
+
+    color: #555;
+
+    font-weight: bold;
+
+    background-color: #f0f0f0;
+
+    border-bottom: 3px solid #ccc;
+
+}
+
+.card-footer p {
+
+    margin: 6px;
+
+    padding-top: 6px;
+
+}
+
+.card-text-left {
+
+    padding-left: 7px;
+
+}
+
+
+
+.card-text-right {
+
+    position: absolute;
+
+    right: 40px;
+
+}
+
+
+
+/*  More Posts Hidden Css */
+
+
+.faint-text {
+
+    overflow: hidden;
+
+    position: relative;
+
+    height: 160px;
+
+}
+
+
+
+.faint-text:after {
+
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 85%, rgba(255, 255, 255, 1) 100%);
+
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(85%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 85%, rgba(255, 255, 255, 1) 100%);
+
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 85%, rgba(255, 255, 255, 1) 100%);
+
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 85%, rgba(255, 255, 255, 1) 100%);
+
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 85%, rgba(255, 255, 255, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=1);
+
+    content: '';
+
+    height: 18px;
+
+    position: absolute;
+
+    bottom: 0;
+
+    right: 0;
+
+    width: 100%;
+
+}
+
+/*
+
+------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Box Css
+
+-------------------------------------------------------------------------------------------------- */
+
+.box {
+
+    color: #b76ac4!important;
+
+    text-decoration: none!important;
+
+    font-weight: 500;
+
+    transition: color .1s ease;
+
+    cursor: pointer;
+
+    flex: 1 1 100%;
+
+    margin: 15px;
+
+    z-index: 499;
+
+    position: relative;
+
+    display: -ms-flexbox;
+
+    display: flex;
+
+    -ms-flex-direction: column;
+
+    flex-direction: column;
+
+    -ms-flex-pack: center;
+
+    justify-content: center;
+
+    overflow: hidden;
+
+    padding: 40px 40px 40px 120px;
+
+    background-color: #fff;
+
+    border-radius: 4px;
+
+    box-shadow: 0 2px 5px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+
+    transition-property: color,background-color,box-shadow,transform;
+
+    transition-duration: .15s;
+
+}
+
+.box:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 8px 15px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07);
+
+}
+
+.title {
+
+    font-size: 17px;
+
+    line-height: 26px;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    letter-spacing: .025em;
+
+}
+
+.text {
+
+    font-weight: 400;
+
+    font-size: 17px;
+
+    line-height: 26px;
+
+    color: #6b7c93;
+
+    margin: 0;
+
+}
+
+.box svg {
+
+    position: absolute;
+
+    width: 130px;
+
+    height: 130px;
+
+    left: -35px;
+
+    top: calc(50% - 65px);
+
+}
+
+/*
+
+------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Footer Css
+
+-------------------------------------------------------------------------------------------------- */
+
+footer {
+	background: #222;
+	margin: 0;
+	padding-top: 2%;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-bottom: 2%;
+	font-family: 'Open Sans', sans-serif;
+	border-top: 6px solid #870052;
+	position: relative;
+	z-index: 9;
+}
+
+
+
+footer h5 {
+
+    color: #fff;
+
+    font-weight: bold;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+footer hr {
+
+    border-color: #444;
+
+}
+
+
+
+footer a {
+
+    text-decoration: none;
+
+    color: #aaa !important;
+
+    display: block;
+
+    line-height: 1.5em;
+
+}
+
+/*
+
+------------------------------------------------------------------------------------------------------------------------- */

@@ -1,0 +1,120 @@
+body {
+	background: #fff;
+}
+
+.header {
+	height:50px;
+	background-color:#fff;
+	border-bottom:1px solid #fff;
+	box-shadow:none;
+}
+
+h4.article-subheading {color:#DD6D44;}
+
+.nav > li > a {background-color:#fff;}
+
+ul.page-nav li a:hover {color:#dd6d44;}
+
+a#page-selected {background-color:#dd6d44;}
+
+/* SPSS VARIABLES */
+
+.s-variable, .o-variable, .n-variable, .ns-variable, .variable {
+	font-size:14px;
+	color:#005595;
+	padding:3px;
+	border:1px solid #eaeaea;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	background:#f2f2f2;
+	vertical-align:text-baseline;
+	background-repeat:no-repeat;
+}
+.s-variable {
+	background-image:url('file:///OZKOK_endnote/ozkok/img/scale.png');
+	padding-left:24px;
+	background-position:5px 3px;
+}
+.o-variable {
+	background-image:url('file:///OZKOK_endnote/ozkok/img/ordinal.png');
+	padding-left:26px;
+	background-position:5px 3px;
+}
+.n-variable {
+	background-image:url('file:///OZKOK_endnote/ozkok/img/nominal.png');
+	padding-left:26px;
+	background-position:5px 3px;
+}
+.ns-variable {
+	background-image:url('file:///OZKOK_endnote/ozkok/img/nominal-s.png');
+	padding-left:26px;
+	background-position:5px 3px;
+}
+.boxes, .rs-variable, .rns-variable, .cns-variable, .cs-variable, .areas {
+	background:#E5F0FD;
+	padding:3px;
+	padding-left:6px;
+	font-family:Arial;
+	font-size:13px;
+}
+.rs-variable {
+	background-image:url('file:///OZKOK_endnote/ozkok/img/bullet-selected.png');
+	background-repeat:no-repeat;
+	padding-left:23px;
+	background-position:5px 5px;
+}
+.rns-variable {
+	background-image:url('file:///OZKOK_endnote/ozkok/img/bullet-not-selected.png');
+	background-repeat:no-repeat;
+	padding-left:23px;
+	background-position:5px 5px;
+}
+.cns-variable {
+	background-image:url('file:///OZKOK_endnote/ozkok/img/checkbox-not-selected.png');
+	background-repeat:no-repeat;
+	padding-left:25px;
+	background-position:5px 3px;
+}
+.cs-variable {
+	background-image:url('file:///OZKOK_endnote/ozkok/img/checkbox-selected.png');
+	background-repeat:no-repeat;
+	padding-left:25px;
+	background-position:5px 3px;
+}
+.areas {
+	color:#374397;
+	padding-right:6px;
+}
+
+#article-menu-selected {color:#dd6d44;}
+
+ul.article-nav > li > a:hover {background-color:#fff;color:#dd6d44;transition-duration:.3s;}
+
+ul.article-nav > li.dropdown a:hover li {color:#dd6d44;transition-duration:.3s;}
+
+/* List of before and after icons for main article menu */
+
+ul.article-nav > li.dropdown > a:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-menu-spss.png);}
+ul.article-nav > li.dropdown > a:hover::after {content:url(file:///OZKOK_endnote/ozkok/img/menu-arrow-spss.png);}
+ul.article-nav > li.toc > a:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-toc-spss.png);}
+ul.article-nav > li.ref > a:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-references-spss.png);}
+
+li.intro:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-intro-spss.png);}
+li.tocontents:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-toc-spss.png);}
+li.background:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-background-spss.png);}
+li.study:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-study-spss.png);}
+li.flow:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-flow-spss.png);}
+li.example:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-ex-spss.png);}
+li.assumptions:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-assumptions-spss.png);}
+li.proc:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-proc-spss.png);}
+li.inter:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-inter-spss.png);}
+li.report:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-report-spss.png);}
+li.app:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-app-spss.png);}
+li.referencing:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-references-spss.png);}
+li.graph:hover::before {content:url(file:///OZKOK_endnote/ozkok/img/i-graph-spss.png);}
+
+
+.download-button {background-color:#dd6d44;}
+
+a.download-a:hover span.download-button {background-color:#f16252;}
